@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Bicycle Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="info-panel"></div>
+    <div id="canvas-container"></div>
+
+    <!-- Three.js and dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+
+    <!-- Our custom scripts -->
+    <script src="js/initScene.js"></script>
+    <script src="js/createBicycle.js"></script>
+    <script src="js/addLighting.js"></script>
+    <script src="js/interaction.js"></script>
+    <script src="js/cameraAnimation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
